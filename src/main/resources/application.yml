@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-d1qv38buibrs73eumnn0-a.oregon-postgres.render.com:5432/berkut
+    username: berkut_user
+    password: tIBCO3yheiMcwudMeCH0C05fUqYKhXq3
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+
+telegram:
+  bot:
+    token: 7611240632:AAFP9O-7dIshwJcycUw0Kdf6oIuXP7Zm1vo
+    username: BerkutBot
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springdoc : DEBUG
