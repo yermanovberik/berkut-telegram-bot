@@ -35,3 +35,18 @@ REST API для приёма сообщений и отправки их в Tele
 ```bash
 git clone https://github.com/berikyerman/berkut-telegram.git
 cd berkut-telegram
+
+
+✨ Возможности
+
+✉️ Регистрация пользователей
+
+🔑 Генерация токена Telegram для привязки аккаунта
+
+🖋️ Отправка сообщений через Telegram
+
+📂 Просмотр истории отправленных сообщений
+
+🔒 Basic Auth защита
+
+🌐 Swagger-документация
